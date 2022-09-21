@@ -2,9 +2,8 @@ import 'package:demo_solo/app/utils/string.dart';
 import 'package:flutter/material.dart';
 
 import '../local widgets/columnwidget.dart';
-import '../local widgets/research.dart';
-import '../local widgets/tabBody.dart';
-import '../local widgets/tabViewWidget.dart';
+import '../local widgets/tab_body.dart';
+import '../local widgets/tabviewidget.dart';
 
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({Key? key}) : super(key: key);
@@ -171,14 +170,14 @@ class _DashboardScreenState extends State<DashboardScreen> {
         //..colmun1 start
         columnWidget(
             w1: Text(
-              kchance_var.toUpperCase(),
+              kChanceVar.toUpperCase(),
               style: const TextStyle(
                   color: Colors.white,
                   fontSize: 14.0,
                   fontWeight: FontWeight.bold),
             ),
             w2: Text(
-              kchance_val.toUpperCase(),
+              kChanceVal.toUpperCase(),
               style: const TextStyle(
                   color: Colors.white,
                   fontSize: 30.0,
@@ -193,14 +192,14 @@ class _DashboardScreenState extends State<DashboardScreen> {
         ),
         columnWidget(
           w1: Text(
-            kmoney_var.toUpperCase(),
+            kMoneyVar.toUpperCase(),
             style: const TextStyle(
                 color: Colors.white,
                 fontSize: 14.0,
                 fontWeight: FontWeight.bold),
           ),
           w2: Text(
-            kmoney_val.toUpperCase(),
+            kMoneyVal.toUpperCase(),
             style: const TextStyle(
                 color: Colors.white,
                 fontSize: 14.0,
@@ -210,7 +209,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
 
         columnWidget(
           w1: Text(
-            kyes_val.toUpperCase(),
+            kYesVal.toUpperCase(),
             style: const TextStyle(
                 color: Colors.white,
                 fontSize: 24.0,
@@ -228,7 +227,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                 top: 2.0,
                 bottom: 2.0,
               ),
-              child: Text(kyes_var.toUpperCase(),
+              child: Text(kYesVar.toUpperCase(),
                   style: const TextStyle(
                       color: Colors.white,
                       fontSize: 18.0,
@@ -239,7 +238,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
 
         columnWidget(
           w1: Text(
-            kno_val.toUpperCase(),
+            kNoVal.toUpperCase(),
             style: const TextStyle(
                 color: Colors.white,
                 fontSize: 24.0,
@@ -257,7 +256,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                 top: 2.0,
                 bottom: 2.0,
               ),
-              child: Text(kno_var.toUpperCase(),
+              child: Text(kNoVar.toUpperCase(),
                   style: const TextStyle(
                       color: Colors.white,
                       fontSize: 18.0,

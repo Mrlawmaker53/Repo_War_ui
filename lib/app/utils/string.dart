@@ -1,19 +1,19 @@
 //..chance
-const kchance_var = 'Chance';
-const kchance_val = '11%';
+const kChanceVar = 'Chance';
+const kChanceVal = '11%';
 //..hour + money
-const kmoney_var = '24H';
-const kmoney_val = '+25495\$';
+const kMoneyVar = '24H';
+const kMoneyVal = '+25495\$';
 //..yes
-const kyes_var = 'Yes';
-const kyes_val = '\$90';
+const kYesVar = 'Yes';
+const kYesVal = '\$90';
 //..no
-const kno_var = 'No';
-const kno_val = '\$89';
+const kNoVar = 'No';
+const kNoVal = '\$89';
 //..text_label
-const klabel_var = '215 Expert Opninion';
+const kLabelVar = '215 Expert Opninion';
 //..text_text
-const klabel2_var = '12%';
+const kLabel2Var = '12%';
 //..tabs name
 const ktab1 = 'Research & News';
 const ktab2 = 'Reactions';

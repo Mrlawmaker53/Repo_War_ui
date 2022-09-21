@@ -1,11 +1,10 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
-import 'buildListTilte.dart';
+import 'build_list_tilte.dart';
 import 'emoji.dart';
 
-Widget SecondTab(BuildContext context) {
+Widget secondTab(BuildContext context) {
   return ListView(
     children: [
       Row(
@@ -27,7 +26,7 @@ Widget SecondTab(BuildContext context) {
         ],
       ),
       buildListtile(
-        Container(
+        SizedBox(
           width: MediaQuery.of(context).size.width * 0.4,
           child: Row(children: const [
             Text.rich(
@@ -108,7 +107,7 @@ Widget SecondTab(BuildContext context) {
         padding: const EdgeInsets.only(left: 20, right: 5),
         child: ListTile(
           horizontalTitleGap: 40,
-          title: SizedBox(width: 80),
+          title: const SizedBox(width: 80),
           leading: const SizedBox(
             width: 300,
             height: 60,

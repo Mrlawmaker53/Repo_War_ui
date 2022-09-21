@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
-import 'cardThird.dart';
+import 'card_third.dart';
 
 relatedTab() {
     return SizedBox(
@@ -8,14 +8,14 @@ relatedTab() {
         width: 100.0,
         child: ListView(
           children: [
-            CardThird(
+            cardThird(
               'asset/abc.png',
               'Liz truzz will be Uk;s next Prime Minster? ',
             ),
             const SizedBox(
               height: 4,
             ),
-            CardThird(
+            cardThird(
               'asset/abc.png',
               'Liz truzz will be Uk;s next Prime Minster? ',
             ),

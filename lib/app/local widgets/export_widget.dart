@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 Widget expertOpinionWidget() {
@@ -21,10 +20,10 @@ Widget expertOpinionWidget() {
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
                   border: Border.all(
-                    color: Color(0xffEBC3EA).withOpacity(0.8),
+                    color: const Color(0xffEBC3EA).withOpacity(0.8),
                     width: 10,
                   ),
-                  color: Color(0xffC930C5).withOpacity(0.4),
+                  color: const Color(0xffC930C5).withOpacity(0.4),
                 ),
                 child: const Center(
                     child: Text('12%',

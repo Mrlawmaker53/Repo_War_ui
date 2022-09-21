@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
-import 'reactionTab.dart';
+import 'reaction_tab.dart';
 import 'related.dart';
 import 'research.dart';
 

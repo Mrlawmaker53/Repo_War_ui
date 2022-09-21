@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-Widget CardThird(String picture, String textnews) {
+Widget cardThird(String picture, String textnews) {
   return Padding(
     padding: const EdgeInsets.all(8.0),
     child: Row(

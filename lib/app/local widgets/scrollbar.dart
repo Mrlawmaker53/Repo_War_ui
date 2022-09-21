@@ -1,9 +1,9 @@
 import 'package:flutter/widgets.dart';
 
-import 'buildCard.dart';
+import 'build_card.dart';
 
 Widget scrollbar() {
-  return Container(
+  return SizedBox(
       height: 100.0,
       child: ListView(
         scrollDirection: Axis.horizontal,

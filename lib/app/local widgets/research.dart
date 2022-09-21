@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-import 'exportWidget.dart';
+import 'export_widget.dart';
 import 'scrollbar.dart';
 
 researchNewsTab() {
